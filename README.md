@@ -21,15 +21,17 @@
 <a name="module_require-coercible-to-string-x"></a>
 
 ## require-coercible-to-string-x
+
 Requires an argument is corecible then converts using ToString.
 
 **Version**: 1.0.2  
 **Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
+**License**: [MIT](https://opensource.org/licenses/MIT)  
 **Copyright**: Xotic750  
 <a name="exp_module_require-coercible-to-string-x--module.exports"></a>
 
 ### `module.exports(value)` ⇒ <code>string</code> ⏏
+
 This method requires an argument is corecible then converts using ToString.
 
 **Kind**: Exported function  
@@ -38,19 +40,19 @@ This method requires an argument is corecible then converts using ToString.
 
 - <code>TypeError</code> If value is null or undefined.
 
-
-| Param | Type | Description |
-| --- | --- | --- |
+| Param | Type            | Description                         |
+| ----- | --------------- | ----------------------------------- |
 | value | <code>\*</code> | The value to converted to a string. |
 
-**Example**  
+**Example**
+
 ```js
-var requireCoercibleToString = require('require-coercible-to-string-x');
+import requireCoercibleToString from 'require-coercible-to-string-x';
 
 requireCoercibleToString(); // TypeError
 requireCoercibleToString(null); // TypeError
 requireCoercibleToString(Symbol('')); // TypeError
 requireCoercibleToString(Object.create(null)); // TypeError
-requireCoercibleToString(1); // '1'
-requireCoercibleToString(true); // 'true'
+console.log(requireCoercibleToString(1)); // '1'
+console.log(requireCoercibleToString(true)); // 'true'
 ```
