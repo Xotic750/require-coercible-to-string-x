@@ -1,7 +1,6 @@
 import noop from 'lodash/noop';
 import requireCoercibleToString from 'src/require-coercible-to-string-x';
 
-/* eslint-disable-next-line compat/compat */
 const hasSymbol = typeof Symbol === 'function' && typeof Symbol('') === 'symbol';
 const ifSymbolIt = hasSymbol ? it : xit;
 
@@ -18,7 +17,6 @@ describe('requireCoercibleToString', function() {
     }).toThrowErrorMatchingSnapshot();
 
     expect(function() {
-      /* eslint-disable-next-line no-void */
       requireCoercibleToString(void 0);
     }).toThrowErrorMatchingSnapshot();
 
@@ -44,7 +42,7 @@ describe('requireCoercibleToString', function() {
 
   ifSymbolIt('should throw for Symbol', function() {
     expect.assertions(2);
-    /* eslint-disable-next-line compat/compat */
+
     const sym = Symbol('foo');
     expect(function() {
       requireCoercibleToString(sym);
