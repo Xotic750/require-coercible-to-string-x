@@ -8,6 +8,8 @@ import toStr from 'to-string-x';
  * @throws {TypeError} If value is null or undefined.
  * @returns {string} The value as a string.
  */
-export default function requireCoercibleToString(value) {
+const requireCoercibleToString = function requireCoercibleToString(value) {
   return toStr(requireObjectCoercible(value));
-}
+};
+
+export default requireCoercibleToString;

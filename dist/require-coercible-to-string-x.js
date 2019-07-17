@@ -2,11 +2,11 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-16T21:01:29.812Z",
+  "date": "2019-07-17T13:05:43.968Z",
   "describe": "",
   "description": "Requires an argument is corecible then converts using ToString.",
   "file": "require-coercible-to-string-x.js",
-  "hash": "bba5b8262b8bc2d96d0c",
+  "hash": "85c4435e6d10ac6306e3",
   "license": "MIT",
   "version": "2.0.8"
 }
@@ -327,7 +327,6 @@ function ToString(value) {
 
 
 // CONCATENATED MODULE: ./dist/require-coercible-to-string-x.esm.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return requireCoercibleToString; });
 
 
 /**
@@ -338,9 +337,11 @@ function ToString(value) {
  * @returns {string} The value as a string.
  */
 
-function requireCoercibleToString(value) {
+var require_coercible_to_string_x_esm_requireCoercibleToString = function requireCoercibleToString(value) {
   return ToString(requireObjectCoercible(value));
-}
+};
+
+/* harmony default export */ var require_coercible_to_string_x_esm = __webpack_exports__["default"] = (require_coercible_to_string_x_esm_requireCoercibleToString);
 
 
 

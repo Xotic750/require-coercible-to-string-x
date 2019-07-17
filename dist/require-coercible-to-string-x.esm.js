@@ -8,8 +8,10 @@ import toStr from 'to-string-x';
  * @returns {string} The value as a string.
  */
 
-export default function requireCoercibleToString(value) {
+var requireCoercibleToString = function requireCoercibleToString(value) {
   return toStr(requireObjectCoercible(value));
-}
+};
+
+export default requireCoercibleToString;
 
 //# sourceMappingURL=require-coercible-to-string-x.esm.js.map
