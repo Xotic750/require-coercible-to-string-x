@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-21T21:50:57.108Z",
+  "date": "2019-07-21T22:15:56.748Z",
   "describe": "",
   "description": "Requires an argument is corecible then converts using ToString.",
   "file": "require-coercible-to-string-x.js",
   "hash": "1d9f82a110123225e99f",
   "license": "MIT",
-  "version": "2.0.16"
+  "version": "2.0.17"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
