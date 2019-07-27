@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017-present",
-  "date": "2019-07-27T13:24:03.413Z",
+  "date": "2019-07-27T21:03:18.155Z",
   "describe": "",
   "description": "Requires an argument is corecible then converts using ToString.",
   "file": "require-coercible-to-string-x.js",
